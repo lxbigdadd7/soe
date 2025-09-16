@@ -5,7 +5,8 @@ Open code for paper Sequence of Expert: Boosting Imitation Planners for Autonomo
 
 The code and models to reproduce results will be published as long as the paper is published.
 
-But I'm pretty sure you can reproduce soe and try it with your IL planners. It's very easy as:
+But I'm pretty sure you can reproduce soe and try it with your IL planners. Firstly, follow the soe combinations method to train and pick your models.
+Then the core logic to combine them is very easy as:
 
 ```
 if index % interval == 0:
